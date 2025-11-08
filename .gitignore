@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+
+# Environment and credentials
+.env
+*.sqlite3
+*.db
+
+# IDE and system files
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Reflex and frontend
+leetcode_recommender/.web/node_modules/
+leetcode_recommender/.web/public/
+leetcode_recommender/.states/
+reflex.db
+frontend.zip
+
+# Jupyter and notebooks
+*.ipynb_checkpoints
+notebooks/
+
+# Data backups
+data/raw/
