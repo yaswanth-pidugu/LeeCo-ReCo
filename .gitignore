@@ -38,3 +38,9 @@ notebooks/
 
 # Data backups
 data/raw/
+
+models/*.pkl
+
+echo "models/*.pkl" >> .gitignore
+
+
