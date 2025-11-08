@@ -32,9 +32,6 @@ leetcode_recommender/.states/
 reflex.db
 frontend.zip
 
-# Jupyter and notebooks
-*.ipynb_checkpoints
-notebooks/
 
 # Data backups
 data/raw/
@@ -42,5 +39,6 @@ data/raw/
 models/*.pkl
 
 echo "models/*.pkl" >> .gitignore
-
-
+echo "config.json" >> .gitignore
+echo "structure.txt" >> .gitignore
+echo "user_progress.py" >> .gitignore
